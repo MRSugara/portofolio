@@ -1,0 +1,31 @@
+body{
+    font-family:"Open Sans",
+    sans-serif;
+}
+.bg-image {
+    position: relative;
+    height: 95vh;
+    overflow: hidden;
+}
+.header {
+    padding-top: 27vh;
+}
+.title{
+    font-family: Georgia, serif;
+}
+.bg-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/image/wp.jpg");
+    background-size: cover;
+    filter: brightness(0.6);
+    z-index: -1;
+}
+.pointer{
+    cursor: pointer;
+}
+
