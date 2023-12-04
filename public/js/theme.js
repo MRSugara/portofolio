@@ -7,5 +7,5 @@
     const userTheme = localStorage.getItem('theme');
 
     if (userTheme === 'dark') {
-theme.setAttribute('data-bs-theme','dark')
+        theme.setAttribute('data-bs-theme','dark')
     }

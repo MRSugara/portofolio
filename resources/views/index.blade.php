@@ -43,7 +43,7 @@
     <div class="container-fluid p-0 bg-image">
         <div class="text-center header mb-5" data-aos="fade-up" data-aos-duration="2000" id="#">
             <div class="fs-1 title text-white">Fullstack Web Developer</div>
-            <blockquote class="fs-5 blockquote mt-2 text-white">
+            <blockquote class="fs-6 blockquote mt-2 text-white">
                 Barang siapa belum merasakan pahitnya belajar walau sebentar, <br>
                 maka akan merasakan hinanya kebodohan sepanjang hidupnya.
             </blockquote>
@@ -79,7 +79,7 @@
         </div>
 
     </div>
-    <div class="container about" style="height: 500vh">
+    <div class="container about">
         <div class="section-title text-center mt-5 fs-1" data-aos="fade-up" data-aos-duration="2000">Tentang Saya</div>
         <div class="text-center fs-6" data-aos="fade-up" data-aos-duration="2000"> Saya adalah seorang muslim yang
             sangat menyukai tantangan dan tak pernah merasa
@@ -231,7 +231,7 @@
                 </div>
                 <div class="col">
                     <div class="card pointer" data-aos="zoom-in-up" data-aos-duration="2000" data-bs-toggle="modal"
-                        data-bs-target="#ICCM">
+                        data-bs-target="#pemesanan">
                         <img src="{{ asset('image/pemesanan.png') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title fs-4">Pemesanan Kendaraan Pegawai</h5>
@@ -249,7 +249,7 @@
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <div class="container-fluid d-flex justify-content-center carousel slide"id="carouselExampleInterval"
+                                <div class="container-fluid d-flex justify-content-center carousel slide"id="carouselExampleInterval-1"
                                     data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active" data-bs-interval="2000">
@@ -263,18 +263,18 @@
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                        data-bs-target="#carouselExampleInterval-1" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
                                     <button class="carousel-control-next" type="button"
-                                        data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                        data-bs-target="#carouselExampleInterval-1" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
                                 <div class="fs-4 m-3">Data Product</div>
-                                <div class="fs-6">Proyek data produk kami tidak hanya mengelola informasi yang melibatkan produk-produk kami, tetapi juga memanfaatkan fungsi chart untuk memberikan visualisasi yang kuat dan mudah dimengerti. Grafik dan diagram yang disajikan secara interaktif memungkinkan tim kami untuk dengan cepat melacak performa produk, mengidentifikasi tren pasar, dan menyajikan temuan secara visual kepada pemangku kepentingan. Dengan integrasi fungsi chart yang canggih, proyek ini membuka pintu bagi analisis mendalam terhadap data produk, mempermudah pengambilan keputusan strategis, dan menghadirkan perspektif yang lebih jelas dalam upaya meningkatkan kualitas dan daya saing produk kami di pasaran.</div>
+                                <div class="fs-6 mx-3">Proyek data produk kami tidak hanya mengelola informasi yang melibatkan produk-produk kami, tetapi juga memanfaatkan fungsi chart untuk memberikan visualisasi yang kuat dan mudah dimengerti. Grafik dan diagram yang disajikan secara interaktif memungkinkan tim kami untuk dengan cepat melacak performa produk, mengidentifikasi tren pasar, dan menyajikan temuan secara visual kepada pemangku kepentingan. Dengan integrasi fungsi chart yang canggih, proyek ini membuka pintu bagi analisis mendalam terhadap data produk, mempermudah pengambilan keputusan strategis, dan menghadirkan perspektif yang lebih jelas dalam upaya meningkatkan kualitas dan daya saing produk kami di pasaran.</div>
 
                             </div>
                             <div class="modal-footer">
@@ -285,11 +285,67 @@
                         </div>
                     </div>
                 </div>
+                <div class="modal fade" id="pemesanan" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Sertifikat</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid d-flex justify-content-center carousel slide"id="carouselExampleInterval"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="2000">
+                                            <img src="{{ asset('image/pemesanan.png') }}" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                            <img src="{{ asset('image/pemesanan1.png') }}" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                            <img src="{{ asset('image/pemesanan2.png') }}" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                            <img src="{{ asset('image/pemesanan3.png') }}" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <div class="fs-4 m-3">Pemesanan Kendaraan || Lihat dokumentasi untuk demo</div>
+                                <div class="fs-6 mx-3">Proyek data produk kami tidak hanya mengelola informasi yang melibatkan produk-produk kami, tetapi juga memanfaatkan fungsi chart untuk memberikan visualisasi yang kuat dan mudah dimengerti. Grafik dan diagram yang disajikan secara interaktif memungkinkan tim kami untuk dengan cepat melacak performa produk, mengidentifikasi tren pasar, dan menyajikan temuan secara visual kepada pemangku kepentingan. Dengan integrasi fungsi chart yang canggih, proyek ini membuka pintu bagi analisis mendalam terhadap data produk, mempermudah pengambilan keputusan strategis, dan menghadirkan perspektif yang lebih jelas dalam upaya meningkatkan kualitas dan daya saing produk kami di pasaran.</div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                    data-bs-dismiss="modal">Close</button>
+                                    <a href="https://mrsugara.my.id" target="_blank" class="btn btn-primary">Visit site</i></a>
+                                    <a href="https://github.com/MRSugara/pemesanan-kendaraan-test" target="_blank" class="btn btn-primary">Documentation</i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
 
     </div>
+    <footer class="container-fluid mt-4 border-top border-body py-3">
+        <div class="container">
+            <div class="fs-6">Copyright © 2023 mrsugara. All Rights Reserved.</div>
+        </div>
+    </footer>
 
 
 
