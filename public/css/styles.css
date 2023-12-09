@@ -28,4 +28,12 @@ body{
 .pointer{
     cursor: pointer;
 }
+@media only screen and (max-height: 756px) {
+    .header {
+        padding-top: 15vh;
+    }
+    .bg-image {
+        height: 100vh;
+    }
+}
 

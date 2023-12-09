@@ -323,7 +323,9 @@
                                     </button>
                                 </div>
                                 <div class="fs-4 m-3">Pemesanan Kendaraan || Lihat dokumentasi untuk demo</div>
-                                <div class="fs-6 mx-3">Proyek data produk kami tidak hanya mengelola informasi yang melibatkan produk-produk kami, tetapi juga memanfaatkan fungsi chart untuk memberikan visualisasi yang kuat dan mudah dimengerti. Grafik dan diagram yang disajikan secara interaktif memungkinkan tim kami untuk dengan cepat melacak performa produk, mengidentifikasi tren pasar, dan menyajikan temuan secara visual kepada pemangku kepentingan. Dengan integrasi fungsi chart yang canggih, proyek ini membuka pintu bagi analisis mendalam terhadap data produk, mempermudah pengambilan keputusan strategis, dan menghadirkan perspektif yang lebih jelas dalam upaya meningkatkan kualitas dan daya saing produk kami di pasaran.</div>
+                                <ol>
+                                    <li>coba</li>
+                                </ol>
 
                             </div>
                             <div class="modal-footer">
